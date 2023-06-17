@@ -24,8 +24,6 @@ def cmd():
     except Exception as ex:
         print(ex)
     
-    
-                        
     if 'time' in text:
         time = datetime.datetime.now().strftime('%I:%M %p')
         print(time)
